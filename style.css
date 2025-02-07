@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: auto;
+    background-color: #ffebfd;
+    justify-content: center;
+}
+
+.header{
+    margin: 10rem;
+    padding: 5rem;
+    display: flex;
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 2rem;
+    flex-direction: column;
+}
+
+img{
+    background-image: url(./amlette.jpeg);
+    width: 100%;
+    height: 30rem;
+    border-radius: 1.5rem;
+    margin: 0 0 2rem;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main h1{
+    margin: 0 0 2rem;
+    font-size: 3rem;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(65, 64, 64);;
+}
+
+.main p{
+    margin: 0 0 1rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+}
+
+.list{
+    margin: 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list h1{
+    margin: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color:darkmagenta;
+    
+}
+
+.list ul li{
+    color: dimgray;
+    margin: 20px;
+    font-style: normal;
+}
+
+.list ul li b{
+    color:rgba(52, 51, 51, 0.879);
+}
+
+.list-first{
+    margin: 20px 0;
+    
+}
+
+.list-first h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(69, 3, 3, 0.7);
+    margin: 30px 5px 0;
+}
+
+.list-first ul li{
+    color: rgb(105, 105, 105);
+    margin: 20px;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    position: relative;
+}
+
+
+.list-first ol li{  
+    color: rgba(69, 3, 3, 0.7);
+    margin: 20px;
+    line-height: 25px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.list-first ol li p{
+    color: rgb(105, 105, 105);
+    font-family: "Geologica", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0, "CRSV" 0, "SHRP" 0;
+    margin-left: 10px;
+}
+
+.text{
+    color: rgba(54, 54, 54, 0.794);
+    font-family: "Geologica", serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+    font-variation-settings: "slnt" 0, "CRSV" 0, "SHRP" 0;
+    font-size: 18px;
+    margin: 20px 8px 0;
+}
+
+.grid {
+	display: flex;	
+    justify-items: center;
+	width: 100%;
+	border: none;
+	border-collapse: separate;
+	border-spacing: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.grid-tr {
+	 display:flex;
+     justify-content: center;
+     width: 100%;
+     padding: 20px;
+     border-bottom: 1px solid rgba(132, 129, 129, 0.794);
+}
+.grid-td {
+
+    color: rgba(54, 54, 54, 0.794);
+	display:inline;	
+	width: 100%;
+	vertical-align: top;
+}
